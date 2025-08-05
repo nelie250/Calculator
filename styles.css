@@ -1,0 +1,97 @@
+body{
+  background-color: #cdacac;
+}
+h1{
+  margin-left: 37vw;
+  font-size: 40px;
+  text-shadow: 3px 3px 3px;
+}
+.calculator {
+  
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    padding: 16px;
+    margin-left: 37vw;
+    justify-content: center;
+    
+}
+
+#display {
+    display: unset;
+    background-color: rgb(207, 200, 200);
+    color: rgb(10, 2, 2);
+    font-size: 32px;
+    height: 60px;
+    margin-bottom: 12px;
+    padding: 8px;
+    border: none;
+    text-align: right;
+}
+.controls{
+  display: flex;
+  gap: 10px;
+}
+
+.controls button {
+    background-color: #a5a5a5;
+    color: black;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.numberPad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.numberPad button {
+    flex: 0 0 30%;
+    aspect-ratio: 1 / 1;
+    font-size: 24px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    width: 25%;
+}
+
+.operatorButtons {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    font-size: 24px;
+    background-color: #ff9500;
+    border-radius: 50%;
+}
+
+button {
+
+    background-color: #505050;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+#footer{
+  margin: 0 4vw;
+}
